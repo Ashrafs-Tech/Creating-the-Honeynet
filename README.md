@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, I build a honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, apply some security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics we will show are:
+For this project, I constructed a honeynet within the Azure platform and gathered log data from multiple sources into a Log Analytics workspace. This workspace serves as the foundation for Microsoft Sentinel, enabling the creation of attack maps, alert triggers, and incident reports. I conducted security metric assessments in the vulnerable environment for 24 hours, implemented security measures to fortify the environment, and subsequently reevaluated the metrics for another 24-hour period. Below, I will present the measured security metrics, which include:
 
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 - SecurityAlert (Log Analytics Alerts Triggered)
