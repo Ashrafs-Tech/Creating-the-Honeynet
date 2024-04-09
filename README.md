@@ -1,5 +1,8 @@
 # Creating the environment
 
+![Template](https://github.com/Ashrafs-Tech/Creating-the-Honeynet/assets/166546026/ecd86868-3a72-4cf2-b426-21ea4fe448a2)
+
+
 ## Introduction
 
 For this project, I constructed a honeynet within the Azure platform and gathered log data from multiple sources into a Log Analytics workspace. This workspace serves as the foundation for Microsoft Sentinel, enabling the creation of attack maps, alert triggers, and incident reports. I conducted security metric assessments in the vulnerable environment for 24 hours, implemented security measures to fortify the environment, and subsequently reevaluated the metrics for another 24-hour period. Below, I will present the measured security metrics, which include:
